@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+
+ footer {
+    background-color: #e7f0e5;
+    color: #073B4C;
+    padding: 10px 20px;
+  }
+
+  header {
+    background-color: #e7f0e5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo img{
+    height: 50px;
+  }
+  
+a {
+    text-decoration: none;
+    color: rgb(139, 29, 29);
+}
+
+a:hover {
+    color: #073B4C;
+}
+
+
+
+hr {
+   border: 9px solid #f0f7f0; 
+   margin: 0%;
+   
+}
+
+ /* .expense {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+  }*/
+
+  .sidenav {
+    align-self: flex-start;
+  }
+
+.sidenav-menu{
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-columnsB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.footer .section-info {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer .social-icons img {
+  width: 20px;
+  margin: 0 5px;
+}
+
+ .button a {
+    background-color: #073B4C;
+    color: #f5f5f5;
+  } 
+
+  .button {
+    background-color: #073B4C;
+  }
