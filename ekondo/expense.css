@@ -55,6 +55,11 @@ hr {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.item-amount {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-columns {
     display: flex;
     justify-content: space-between;

@@ -35,57 +35,44 @@
     <div>
     <h3>Petty Cash Retirement</h3><br>
 
-      <section class="form-columns">
+    <section class="form-columns">
+      <div>
+    <form target="_parent" method="get" autocomplete="on">
+      <label for="fname">Branch:&nbsp;&nbsp;</label>
+      <input type="text" id="fname" name="fname"><br><br><br>
+      <Label for="lname">Payee Name:&nbsp;&nbsp;</Label>
+      <input type="text" id="lname" name="lname"><br><br><br>
+      <div class="item-amount">
         <div>
-      <form target="_parent" method="get" autocomplete="on">
-        <label for="fname">Branch:&nbsp;&nbsp;</label>
-        <input type="text" id="fname" name="fname"><br><br><br>
-        <Label for="lname">Payee Name:&nbsp;&nbsp;</Label>
-        <input type="text" id="lname" name="lname"><br><br><br>
-        <Label for="lname">Invoice Amount:&nbsp;&nbsp;</Label>
-        <input type="text" id="lname" name="lname"><br>
-      </form>
+      <Label for="lname">Item:&nbsp;&nbsp;</Label>
+      <input type="text" id="lname" name="lname"><br>
         </div>
         <div>
-          <form target="_parent" method="get" autocomplete="on">
-            <label for="fname">Department:&nbsp;&nbsp;</label>
-            <input type="text" id="fname" name="fname"><br><br><br>
-            <Label for="lname">Payee Account:&nbsp;&nbsp;</Label>
-            <input type="text" id="lname" name="lname"><br><br><br>
-            <Label for="lname">Cash Advance:&nbsp;&nbsp;</Label>
-            <input type="text" id="lname" name="lname"><br>
-          </form>
-        </div> 
-      </section>
-
-      <br><br>
-        <form>
-        <label for="fname">Narration:&nbsp;&nbsp;</label>
-        <input type="text" id="fname" name="fname" size="100"><br><br><br>
-      </form>
-
-      <section class="form-columnsB">
-        <div>
-          <form>
-            <label for="fname">Less What(if any):&nbsp;&nbsp;</label>
-            <input type="text" id="fname" name="fname"><br><br><br>
-          </form>
+      <Label for="lname">Amount:&nbsp;&nbsp;</Label>
+      <input type="text" id="lname" name="lname"><br>
         </div>
-        <div>
-          <form>
-            <label for="fname">Amount:&nbsp;&nbsp;</label>
-            <input type="text" id="fname" name="fname"><br><br><br>
-          </form>
-        </div>
-      </section>
+    </div>
+    </form>
+      </div>
+      <div>
+        <form target="_parent" method="get" autocomplete="on">
+          <label for="fname">Department:&nbsp;&nbsp;</label>
+          <input type="text" id="fname" name="fname"><br><br><br>
+          <Label for="lname">Payee Account:&nbsp;&nbsp;</Label>
+          <input type="text" id="lname" name="lname"><br><br><br>
+          <Label for="lname">Description:&nbsp;&nbsp;</Label>
+          <input type="text" id="lname" name="lname"><br>
+        </form>
+      </div> 
+    </section><br>
+    <button class="button">
+      <a href="#" class="item">ADD ITEM</a>
+     </button><br><br><br>
+     <Label for="lname">Total Aount:&nbsp;&nbsp;</Label>
+     <input type="text" id="lname" name="lname"><br><br><br><br><br>
 
       <form>
-        <label for="myFile">Management Board Approval:&nbsp;&nbsp;</label>
-        <input type="file" id="myFile" name="filename">
-      </form><br><br>
-
-      <form>
-        <label for="myFile">Upload Proforma Invoice:&nbsp;&nbsp;</label>
+        <label for="myFile">Upload Receipt:&nbsp;&nbsp;</label>
         <input type="file" id="myFile" name="filename">
       </form>
     </div>

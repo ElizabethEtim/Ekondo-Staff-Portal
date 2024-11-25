@@ -42,8 +42,16 @@
             <input type="text" id="fname" name="fname"><br><br><br>
             <Label for="lname">Payee Name:&nbsp;&nbsp;</Label>
             <input type="text" id="lname" name="lname"><br><br><br>
-            <Label for="lname">Invoice Amount:&nbsp;&nbsp;</Label>
+            <div class="item-amount">
+              <div>
+            <Label for="lname">Item:&nbsp;&nbsp;</Label>
             <input type="text" id="lname" name="lname"><br>
+              </div>
+              <div>
+            <Label for="lname">Amount:&nbsp;&nbsp;</Label>
+            <input type="text" id="lname" name="lname"><br>
+              </div>
+          </div>
           </form>
             </div>
             <div>
@@ -52,42 +60,17 @@
                 <input type="text" id="fname" name="fname"><br><br><br>
                 <Label for="lname">Payee Account:&nbsp;&nbsp;</Label>
                 <input type="text" id="lname" name="lname"><br><br><br>
-                <Label for="lname">Cash Advance:&nbsp;&nbsp;</Label>
+                <Label for="lname">Description:&nbsp;&nbsp;</Label>
                 <input type="text" id="lname" name="lname"><br>
               </form>
             </div> 
-          </section>
+          </section><br>
+          <button class="button">
+            <a href="#" class="item">ADD ITEM</a>
+           </button><br><br><br>
+           <Label for="lname">Total Aount:&nbsp;&nbsp;</Label>
+           <input type="text" id="lname" name="lname"><br><br><br><br><br>
 
-          <br><br>
-            <form>
-            <label for="fname">Narration:&nbsp;&nbsp;</label>
-            <input type="text" id="fname" name="fname" size="100"><br><br><br>
-          </form>
-
-          <section class="form-columnsB">
-            <div>
-              <form>
-                <label for="fname">Less What(if any):&nbsp;&nbsp;</label>
-                <input type="text" id="fname" name="fname"><br><br><br>
-              </form>
-            </div>
-            <div>
-              <form>
-                <label for="fname">Amount:&nbsp;&nbsp;</label>
-                <input type="text" id="fname" name="fname"><br><br><br>
-              </form>
-            </div>
-          </section>
-
-          <form>
-            <label for="myFile">Management Board Approval:&nbsp;&nbsp;</label>
-            <input type="file" id="myFile" name="filename">
-          </form><br><br>
-
-          <form>
-            <label for="myFile">Upload Proforma Invoice:&nbsp;&nbsp;</label>
-            <input type="file" id="myFile" name="filename">
-          </form><br>
           <p>
             <button class="button">
             <a href="#" target="_parent">ORIGINATE</a>
@@ -103,6 +86,15 @@
            </button><br><br><br>
            <button class="button">
             <a href="#" target="_parent">REVIEW</a>
+           </button><br><br><br>
+           <button class="button">
+            <a href="#" target="_parent">RETURN</a><br>
+           </button><br><br><br>
+           <button class="button">
+            <a href="#" target="_parent">REJECT</a>
+           </button><br><br><br>
+           <button class="button">
+            <a href="#" target="_parent">AUTHORIZE</a>
            </button><br><br><br>
            <button class="button">
             <a href="#" target="_parent">REQUEST PAYMENT</a>
