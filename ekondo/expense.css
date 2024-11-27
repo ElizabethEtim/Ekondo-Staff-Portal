@@ -40,15 +40,20 @@ hr {
    
 }
 
- /* .expense {
+.expense {
     background-color: rgb(250, 250, 250);
     display: flex;
     justify-content: space-between;
-  }*/
-
-  .sidenav {
-    align-self: flex-start;
   }
+
+  .expense-management {
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.sidenav {
+    align-self: flex-start;
+}
 
 .sidenav-menu{
   list-style: none;
@@ -60,11 +65,12 @@ hr {
   justify-content: space-between;
 }
 
+/*forms*/
 .form-columns {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .form-columnsB {
@@ -81,6 +87,36 @@ hr {
   align-items: center;
 }
 
+/*bottom buttons*/
+.buttonA {
+  text-align: center;
+}
+
+.buttonB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonE {
+  text-align: center;
+}
+
+.buttonF {
+  text-align: center;
+}
 /* Footer */
 .footer {
   text-align: center;
@@ -104,4 +140,10 @@ hr {
 
   .button {
     background-color: #073B4C;
+  }
+
+  .payment-sent {
+    color: #073B4C;
+    padding: 5% 30% 30% 30%;
+    text-align: center;
   }

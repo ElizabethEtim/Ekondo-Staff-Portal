@@ -36,18 +36,21 @@ body {
   /* Main Section */
   .main {
     display: flex;
-    padding: 30px;
+    padding: 80px;
+  
   }
   
   .image-container img {
-    width: 70%;
-    height: 90%;
+    width: 120%;
+    height: 110%;
+    margin-left: 50%;
   }
   
   .content {
     width: 50%;
     padding: 20px;
     flex: 1;
+    margin-left: 20%;
   }
   
   .content h1 {

@@ -39,14 +39,16 @@ body {
   }
   
   .image-container img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 110%;
+    margin-left: 10%;
   }
   
   .content {
     width: 50%;
     padding: 20px;
     flex: 1;
+    margin-left: 50px;
   }
   
   .content h1 {
@@ -87,4 +89,8 @@ body {
   .footer .social-icons img {
     width: 20px;
     margin: 0 5px;
+  }
+
+  .social-icons {
+    size: 10%;
   }
