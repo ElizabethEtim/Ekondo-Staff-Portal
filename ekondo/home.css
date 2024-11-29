@@ -37,7 +37,9 @@ body {
   .main {
     display: flex;
     padding: 80px;
-  
+    background-color: rgba(0, 0, 5, 0.041);
+    margin: 90px;
+    border-radius: 10px;
   }
   
   .image-container img {
@@ -75,8 +77,11 @@ body {
   
   /* Footer */
   .footer {
-    text-align: center;
-    padding: 15px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
   
   .footer .section-info {
@@ -85,7 +90,10 @@ body {
   }
   
   .footer .social-icons img {
-    width: 20px;
-    margin: 0 5px;
+    width: 15px;
+  }
+
+  .social-icons {
+    size: 10%;
   }
 
