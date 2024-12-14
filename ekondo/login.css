@@ -1,3 +1,6 @@
+/*#1F6C23 - Green
+  #70A750 - Lemon */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -71,7 +74,7 @@ body {
   }
   
   .button {
-    background-color: #1260f0;
+    background-color: #1F6C23;
     color: #f5f5f5;
     border-radius: 60px;
     border: none;
